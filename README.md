@@ -1,3 +1,4 @@
+![overview](https://github.com/muhammedozturk/GPBMOO/blob/main/overview.png)
 # Gauss Pareto-based Multi-objective Optimization (GPBMOO)
 is a multi-objective optimization method coded with R package. It finds the best configuration of Spark in compliance with three fitness functions. GPBMOO has been tested on the benchmarks of Hibench and MLlib library of Spark. sparktf and sparklyr are needed to connect Spark.
 
