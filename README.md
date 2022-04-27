@@ -67,7 +67,7 @@ sparkTime <- function(y){
       layers = c(4,3,3,3,2),step_size=y,max_iter=1,tol=0.0066,
       solver = "gd")
     
-    sonuc <- nn_model %>%
+    sonuc <- nn_model %>% 
       ml_predict(test) %>%
       select(Class2, predicted_label,starts_with("probability_")) %>%
       glimpse()
