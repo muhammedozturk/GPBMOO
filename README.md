@@ -21,7 +21,7 @@ MOPSPecial <- function (x)
 
 }
 
-##How to run GPBMOO
+## How to run GPBMOO
 
 1. First download a data set from https://www.kaggle.com/muhammad4hmed/malwaremicrosoftbig
 2. Run mopSpecialMicrosoft (1)
