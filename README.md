@@ -6,6 +6,10 @@ is a multi-objective optimization method coded with R package. It finds the best
 2. GPBMOO can be adapted for Hibench benchmarks, but it is also suitable for other algorithms of MLlib,
 3. To achieve high speedup, increasing the number of CPU cores is redundant after a specific threshold in multiobjective optimization
 
+## Connection
+![con1](https://github.com/muhammedozturk/GPBMOO/blob/main/con1.png)
+
+
 ## Three fitness functions
 MOPSPecial <- function (x) 
 {
@@ -16,4 +20,4 @@ MOPSPecial <- function (x)
   f <- cbind(Memory,Time,Accuracy)
 
 }
-![con1](https://github.com/muhammedozturk/GPBMOO/blob/main/con1.png)
+
