@@ -16,4 +16,4 @@ MOPSPecial <- function (x)
   f <- cbind(Memory,Time,Accuracy)
 
 }
-(https://github.com/muhammedozturk/GPBMOO/blob/main/con1.png)
+![con1]https://github.com/muhammedozturk/GPBMOO/blob/main/con1.png
