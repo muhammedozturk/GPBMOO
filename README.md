@@ -75,9 +75,6 @@ MOPSPecial <- function (x)  <br />
   Memory <-1+ (1+cos(x)+x*x-2*x)+ sparkMem(x) <br /> 
   Time <- 1+ (1+sin(x)+x*x-2*sin(x)*x)+sparkTime(x) <br /> 
  Accuracy <- 1+ (1+sin(x)+x*x-2*cos(x)*x)+sparkAccu(x) <br /> 
-  #f1 <- 1+ (1+cos(x)+x*x-2*x) <br /> 
-  #f2 <- 1+ (1+sin(x)+x*x-2*sin(x)*x) <br /> 
- # f3 <- 1+ (1+sin(x)+x*x-2*cos(x)*x) <br /> 
   f <- cbind(Memory,Time,Accuracy) <br /> 
 
 } <br /> 
